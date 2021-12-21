@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.believe-it-imgs {
+  display: flex;
+  flex-flow: row;
+}
+
+.believe-it-items {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.believe-content {
+  flex-direction: column;
+  text-align: center;
+}
+
+.believe-content button {
+  padding: 10px 20px;
+  margin: 10px 0px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: 3px;
+}
+.Banners-imgs {
+  margin-top: 2%;
+  display: flex;
+  flex-flow: row;
+}
+
+.Banners-items {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.Banners-content {
+  flex-direction: column;
+  text-align: center;
+}
+
+.Banners-content p {
+  margin: 10px 10px;
+}
+
+.btn-banners button {
+  padding: 10px 20px;
+  margin: 10px 0px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: 3px;
+}
+.for-all-season {
+  margin-top: 2%;
+  display: flex;
+  align-items: flex-start;
+  background: url("../../imagenes/calltoaction.jpg");
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.Season-content {
+  flex-direction: column;
+  margin-top: 5%;
+  margin-left: 5%;
+  color: var(--white);
+}
+
+.Season-content h1,
+p {
+  text-shadow: 1px 1px 2px rgb(88, 88, 88);
+}
+
+.btn-season button {
+  padding: 10px 20px;
+  margin: 10px 0px;
+  background-color: var(--white);
+  color: var(--primary-color);
+  border-radius: 3px;
+}
+.nav-divider {
+  border-top: 1px solid var(--fifth-color);
+  border-bottom: 1px solid var(--fifth-color);
+  background-color: var(--secondary-color);
+  width: 100%;
+  height: 50px;
+}
+.footer-hero {
+  height: 170px;
+  background-color: var(--third-color);
+}
+.footer-items {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+.footer-items a {
+  text-decoration: none;
+  margin: 10px 10px;
+  color: var(--white);
+}
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap");
+.nav-top {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.nav-top a {
+  font-size: 15px;
+}
+
+.container-row {
+  margin-top: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  text-decoration: none;
+  gap: 4px;
+}
+
+.Navbar-item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 1px solid var(--secondary-color);
+}
+
+.Navbar-item a {
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 0px 25px;
+}
+
+.nav-right-side {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+}
+
+.nav-right-side a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.nav-bottom {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.Navigation-bottom {
+  display: flex;
+  gap: 4px;
+}
+
+.nav-bottom img {
+  height: 50%;
+}
+
+.Navigation-bottom a {
+  font-family: "Nunito Sans", sans-serif;
+  color: var(--primary-color);
+  text-decoration: none;
+  flex-direction: row wrap;
+  padding: 0px 10px;
+  margin: 20px 0px;
+  font-size: 13px;
+  justify-content: center;
+  text-align: center;
+}
+
+.search-field input {
+  padding: 0px 10px;
+  margin: 10px 0px;
+  width: 200px;
+  height: 40px;
+  border: 1px solid var(--secondary-color);
+}
